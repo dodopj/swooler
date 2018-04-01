@@ -6,6 +6,7 @@
  * Time: 18:54
  */
 
+namespace Swoole\Contract;
 interface TimerInterface
 {
     public function handle();
