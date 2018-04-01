@@ -1,0 +1,29 @@
+{
+  "name": "swooler",
+  "type": "library",
+  "description": "Swooler,易用库",
+  "keywords": [
+    "swoole",
+    "swooler"
+  ],
+  "authors": [
+    {
+      "name": "jun.pan",
+      "email": "panjun001@zhongan.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "swoole": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Swoole\\":"src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Swoole\\":"src/"
+    }
+  }
+}
