@@ -13,8 +13,6 @@
     }
   ],
   "require": {
-    "php": ">=7.0.0",
-    "swoole": "*"
   },
   "autoload": {
     "psr-4": {
